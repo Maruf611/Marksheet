@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subject{
+    width: 500px;
+    background: linear-gradient(40deg, rgb(122, 236, 122), rgb(238, 226, 161));
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    border-radius: 10px;
+    
+    
+}
+
+label{
+    width: 300px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: blue;
+}
+
+input{
+    width: 85px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    text-align: center;
+    color: blue;
+    border-radius: 5px;    
+}
+
+.button{
+    
+    margin-top: 40px;
+    margin-left: 150px; 
+
+}
+
+.button button{
+    background: none;
+    outline: none;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    color: blue;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background: linear-gradient(40deg, rgb(236, 238, 106), rgb(161, 238, 238));
+    color: rgb(26, 27, 27);
+}
+
+
+.table{
+    width: 500px;
+    background: linear-gradient(40deg, rgb(236, 238, 106), rgb(161, 238, 238));
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    border-radius: 10px;
+    margin-right: 250px;
+}
+
+table{
+    width: 300px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: blue;
+}
+
+td{
+    padding: 10px;
+}
+

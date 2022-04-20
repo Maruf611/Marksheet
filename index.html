@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="subject">
+            <div class="subject_1">
+                <label for="">Math :</label>
+                <input id="subjectOne" type="number" >
+            </div>
+            <div class="subject_2">
+                <label for="">English :</label>
+                <input id="subjectTwo" type="number" >
+            </div>
+            <div class="subject_3">
+                <label for="">Bangla :</label>
+                <input id="subjectThree" type="number" >
+            </div>
+            <div class="subject_4">
+                <label for="">Accounting :</label>
+                <input id="subjectFour" type="number" >
+            </div>
+            <div class="subject_5">
+                <label for="">Economy :</label>
+                <input id="subjectFive" type="number" >
+            </div>
+            <div class="subject_6">
+                <label for="">Management :</label>
+                <input id="subjectSix" type="number" >
+            </div>
+
+            <div class="button">
+                <button onclick="calculate()">Calculate</button>
+            </div>
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <td>Obtained Marked :</td>
+                    <td id="obtained" class="mark"></td>
+                </tr>
+                <tr>
+                    <td>Average :</td>
+                    <td id="percentage" class="mark"></td>
+                </tr>
+                <tr>
+                    <td>Grade :</td>
+                    <td id="grade" class="mark"></td>
+                </tr>
+                <tr>
+                    <td>Remarks :</td>
+                    <td id="remarks" class="mark"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
